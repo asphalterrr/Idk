@@ -1,1 +1,226 @@
-asph.hub
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AsphPresets</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #09090f;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #9999ad;
+            font-size: 15px;
+        }
+
+        .section-title {
+            color: #8888a0;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 18px 20px;
+            background: #14141f;
+            border: 1px solid #252536;
+            border-radius: 14px;
+            text-decoration: none;
+            color: white;
+            transition: 0.2s ease;
+        }
+
+        .link-card:hover {
+            background: #1d1d2d;
+            border-color: #8b5cf6;
+            transform: translateY(-3px);
+        }
+
+        .icon {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #242137;
+            border-radius: 12px;
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+
+        .link-info {
+            flex: 1;
+        }
+
+        .link-info h2 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .link-info p {
+            font-size: 13px;
+            color: #9999ad;
+        }
+
+        .arrow {
+            color: #8888a0;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            color: #66667a;
+            margin-top: 35px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 40px 15px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .link-card {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <div class="logo">⚡</div>
+            <h1>AsphPreset</h1>
+            <p class="subtitle">Everything you need, all in one place.</p>
+        </header>
+
+        <p class="section-title">My Links</p>
+
+        <nav class="links">
+
+            <!-- LINK 1 -->
+            <a class="link-card"
+               href="https://www.youtube.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="icon">▶️</div>
+
+                <div class="link-info">
+                    <h2>YouTube</h2>
+                    <p>Watch videos and explore content</p>
+                </div>
+
+                <span class="arrow">↗</span>
+            </a>
+
+            <!-- LINK 2 -->
+            <a class="link-card"
+               href="https://discord.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="icon">💬</div>
+
+                <div class="link-info">
+                    <h2>Discord</h2>
+                    <p>Join the community</p>
+                </div>
+
+                <span class="arrow">↗</span>
+            </a>
+
+            <!-- LINK 3 -->
+            <a class="link-card"
+               href="https://github.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="icon">💻</div>
+
+                <div class="link-info">
+                    <h2>GitHub</h2>
+                    <p>Explore projects and code</p>
+                </div>
+
+                <span class="arrow">↗</span>
+            </a>
+
+            <!-- LINK 4 -->
+            <a class="link-card"
+               href="https://www.google.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="icon">🌐</div>
+
+                <div class="link-info">
+                    <h2>Google</h2>
+                    <p>Search the web</p>
+                </div>
+
+                <span class="arrow">↗</span>
+            </a>
+
+        </nav>
+
+        <footer>
+            My Hub · All links in one place
+        </footer>
+
+    </main>
+
+</body>
+</html>
